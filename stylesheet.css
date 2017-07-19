@@ -17,7 +17,7 @@ body{
 	left: 30%;
 }
 
-.arc{
+.circle{
     position: absolute;
     border: 50px solid #000;
     display: inline-block;
@@ -32,22 +32,22 @@ body{
     transform: rotate(45deg);
 }
 
-.q1{ 
-	border-top-color:#31e05a; 
+.green{ 
+	border-top-color:#f4424b; 
 	left: 20px;
 }
 
-.q2{ 
-	border-right-color:#f4424b; 
+.red{ 
+	border-right-color:#2d85e2; 
 	top: 20px; 
 	left: 20px;
 }
 
-.q3{ 
+.yellow{ 
 	border-bottom-color:#ecef2b; 
 	top: 20px; 
 }
 
-.q4{ 
-	border-left-color:#2d85e2; 
+.blue{ 
+	border-left-color:#31e05a; 
 }
