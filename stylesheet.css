@@ -12,38 +12,42 @@ body{
 
 .game-container{
 	background-color:grey;
-}
-
-#green{
-	height:200px;
-	width: 250px;
-	background-color:green;
-	display: inline-block;
-	border-top-left-radius: 200%;
-}
-
-#red{
-	height:200px;
-	width: 250px;
-	background-color:red;
 	position: absolute;
-	right: 0px;
-	display: inline-block;
-	border-top-right-radius: 100%;
+	top: 50%;
+	left: 40%;
 }
 
-#yellow{
-	height:200px;
-	width: 250px;
-	background-color:yellow;
-	position: absolute;
-	right: 0px;
-	display: inline-block;
+.arc{
+    position: absolute;
+    border: 20px solid #000;
+    display: inline-block;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    border-color: transparent;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
-#blue{
-	height: 200px;
-	width: 250px;
-	background-color: blue;
-	display: inline-block;
+.q1{ 
+	border-top-color:green; 
+	left: 2px;
+}
+
+.q2{ 
+	border-right-color:red; 
+	top: 2px; 
+	left: 2px;
+}
+
+.q3{ 
+	border-bottom-color:yellow; 
+	top: 2px; 
+}
+
+.q4{ 
+	border-left-color:blue; 
 }
