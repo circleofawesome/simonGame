@@ -51,3 +51,12 @@ body{
 .green{ 
 	border-left-color:#31e05a; 
 }
+
+#counter{
+	border-style: solid;
+	border-color: grey;
+	border-width: 2px;
+	width: 10%;
+	height: 5%;
+	color:white;
+}
