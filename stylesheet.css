@@ -1,3 +1,6 @@
+body{
+	background-color:#333438 !important;
+}
 .container-fluid{
 	background-color: #333438;
 	width: 100%;
@@ -8,5 +11,39 @@
 }
 
 .game-container{
+	background-color:grey;
+}
+
+#green{
+	height:200px;
+	width: 250px;
+	background-color:green;
+	display: inline-block;
+	border-top-left-radius: 200%;
+}
+
+#red{
+	height:200px;
+	width: 250px;
 	background-color:red;
+	position: absolute;
+	right: 0px;
+	display: inline-block;
+	border-top-right-radius: 100%;
+}
+
+#yellow{
+	height:200px;
+	width: 250px;
+	background-color:yellow;
+	position: absolute;
+	right: 0px;
+	display: inline-block;
+}
+
+#blue{
+	height: 200px;
+	width: 250px;
+	background-color: blue;
+	display: inline-block;
 }
