@@ -14,12 +14,12 @@ body{
 	background-color:grey;
 	position: absolute;
 	top: 50%;
-	left: 40%;
+	left: 30%;
 }
 
 .arc{
     position: absolute;
-    border: 20px solid #000;
+    border: 50px solid #000;
     display: inline-block;
     min-width: 200px;
     min-height: 200px;
@@ -33,21 +33,21 @@ body{
 }
 
 .q1{ 
-	border-top-color:green; 
-	left: 2px;
+	border-top-color:#31e05a; 
+	left: 20px;
 }
 
 .q2{ 
-	border-right-color:red; 
-	top: 2px; 
-	left: 2px;
+	border-right-color:#f4424b; 
+	top: 20px; 
+	left: 20px;
 }
 
 .q3{ 
-	border-bottom-color:yellow; 
-	top: 2px; 
+	border-bottom-color:#ecef2b; 
+	top: 20px; 
 }
 
 .q4{ 
-	border-left-color:blue; 
+	border-left-color:#2d85e2; 
 }
