@@ -32,12 +32,12 @@ body{
     transform: rotate(45deg);
 }
 
-.green{ 
+.red{ 
 	border-top-color:#f4424b; 
 	left: 20px;
 }
 
-.red{ 
+.blue{ 
 	border-right-color:#2d85e2; 
 	top: 20px; 
 	left: 20px;
@@ -48,6 +48,6 @@ body{
 	top: 20px; 
 }
 
-.blue{ 
+.green{ 
 	border-left-color:#31e05a; 
 }
