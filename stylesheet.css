@@ -1,3 +1,8 @@
-#test{
-	background-color: red;
+.container-fluid{
+	background-color: #333438;
+	width: 100%;
+}
+
+.filler{
+	height: 20%;
 }
