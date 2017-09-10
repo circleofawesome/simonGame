@@ -1,34 +1,28 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="simon.js"></script>
 </head>
 
 <body>
-	<div class='container-fluid'>
-		<div class='row'>
-			<div class='col-md-12 filler'></div>
+	<div id="gameContainer">
+		<div class="leftColumn">
+			<div class="gameQuadrant" id="leftUp">1</div>
+			<div class="gameQuadrant" id="leftBottom">2</div>
 		</div>
-		<div class='row'>
-			<div class='col-md-4'></div>
-			<div class='col-md-4 scoreboard-container'>
-				<button class='btn btn-primary'>START</button>
-				<button class='btn btn-secondary'>STRICT</button>
-				<div id='counter'>0</div>
-			</div>
-			<div class='col-md-4'></div>
+		<div class="buttonContainer">
+			<ul>
+				<li><button>START</button></li>
+				<li><button>STRICT</button></li>
+				<li><button>OFF</button></li>
+				<li><br></li>
+				<li>
+					<div id="scoreBoard"><center>00</center></div>
+				</li>
+			</ul>
 		</div>
-		<div class='row'>
-			<div class='col-md-4'></div>
-			<div class='col-md-4'>
-				<div class='game-container'>
-					<div class="circle red"></div>
-					<div class="circle blue"></div>
-					<div class="circle yellow"></div>
-					<div class="circle green"></div>
-				</div>
-			</div>
-			<div class='col-md-4'></div>
+		<div class="rightColumn">
+			<div class="gameQuadrant" id="rightUp">3</div>
+			<div class="gameQuadrant" id="rightBottom">4</div>
 		</div>
 	</div>
 </body>

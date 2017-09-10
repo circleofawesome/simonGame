@@ -1,62 +1,54 @@
 body{
-	background-color:#333438 !important;
-}
-.container-fluid{
-	background-color: #333438;
-	width: 100%;
+	background-color: #3a3737;
 }
 
-.filler{
-	height: 20%;
+#gameContainer{
+	width: 500px;
+	height: 500px;
+	background-color: grey;
+	display: -webkit-flex;
+    display: flex;
+    margin: auto;
 }
 
-.game-container{
-	background-color:grey;
-	position: absolute;
-	top: 50%;
-	left: 30%;
+.gameQuadrant{
+	width:200px;
+	height: 200px;
 }
 
-.circle{
-    position: absolute;
-    border: 50px solid #000;
-    display: inline-block;
-    min-width: 200px;
-    min-height: 200px;
-    border-radius: 50%;
-    top: 0;
-    left: 0;
-    border-color: transparent;
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
+.leftColumn, .rightColumn{
+	margin: auto;
 }
 
-.red{ 
-	border-top-color:#f4424b; 
-	left: 20px;
+#leftUp{
+	background-color: green;
+	/*border-top-left-radius: 200px;*/
+}
+#rightUp{
+	background-color: red;
+}
+#leftBottom{
+	background-color: yellow;
+}
+#rightBottom{
+	background-color: blue;
 }
 
-.blue{ 
-	border-right-color:#2d85e2; 
-	top: 20px; 
-	left: 20px;
+.buttonContainer{
+	margin: auto;
+	display: flex;
+	display: -webkit-flex;
 }
 
-.yellow{ 
-	border-bottom-color:#ecef2b; 
-	top: 20px; 
+ul{
+	list-style: none;
+	padding:inherit;
 }
 
-.green{ 
-	border-left-color:#31e05a; 
-}
-
-#counter{
+#scoreBoard{
 	border-style: solid;
-	border-color: grey;
-	border-width: 2px;
-	width: 10%;
-	height: 5%;
-	color:white;
+	border-color:black;
+	border-radius:2px;
+	color: red;
+	background-color: #3a3737;
 }
